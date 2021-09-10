@@ -19,13 +19,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "terminal-table", "~> 1.4"
-  spec.add_runtime_dependency "json", "~>1.8"
+  spec.add_runtime_dependency "json", "~>2.5"
   spec.add_runtime_dependency "activesupport", "~>5"
   spec.add_runtime_dependency "i18n", "~>0.6"
   spec.add_runtime_dependency "tzinfo", "~>1.1"
   spec.add_runtime_dependency "minitest", "~>5.1"
   spec.add_runtime_dependency "thread_safe", "~>0.3"
-  spec.add_development_dependency "bundler", '~>1.7'
+  spec.add_development_dependency "bundler", '~>2.2'
   spec.add_development_dependency "rake", "~>10.3"
   spec.add_development_dependency "pry", "~>0.10"
 
